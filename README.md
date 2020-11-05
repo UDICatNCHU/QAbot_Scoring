@@ -47,7 +47,8 @@ print(JsonList[0]['Question'])
 #### 可用資源
 1. 中文wiki百科的json檔： https://drive.google.com/open?id=0ByoB_9NkZ9rRa3VUY25TeXRtdnM
 2. 繁體中文wiki的json檔，且content經過斷詞https://drive.google.com/file/d/0ByoB_9NkZ9rRZWFRa1FiWlZYTDA/view?usp=sharing  
-3. ptt社群網站爬蟲：https://github.com/RogerTsai917/PTT-Crawler
-4. ijson: https://github.com/isagalaev/ijson
+3. 繁體中文wiki的準RDD Format: https://drive.google.com/file/d/1-9nmzGHVE1w5gkhcdRKItIHLP6GmtWLg/view?usp=sharing 
+4. ptt社群網站爬蟲：https://github.com/RogerTsai917/PTT-Crawler
+5. ijson: https://github.com/isagalaev/ijson
    使用ijson搜尋工具，ijson主要是使用在json過大而不能夠全部loading進記憶體時，採用stream的方式讀取json檔。
 	python3 ijsonSearch.py 查詢的json檔名 查詢的目標類型 查詢目標名稱
