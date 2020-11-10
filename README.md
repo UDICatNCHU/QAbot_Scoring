@@ -52,3 +52,4 @@ print(JsonList[0]['Question'])
 5. ijson: https://github.com/isagalaev/ijson
    使用ijson搜尋工具，ijson主要是使用在json過大而不能夠全部loading進記憶體時，採用stream的方式讀取json檔。
 	python3 ijsonSearch.py 查詢的json檔名 查詢的目標類型 查詢目標名稱
+6. https://github.com/UDICatNCHU/UdicOpenData (ptt斷詞工具)
